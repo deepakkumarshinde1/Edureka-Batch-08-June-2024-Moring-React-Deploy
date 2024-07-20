@@ -15,3 +15,8 @@ code {
 ul {
   list-style: none;
 }
+
+.btn {
+  background-color: red;
+  color: white;
+}

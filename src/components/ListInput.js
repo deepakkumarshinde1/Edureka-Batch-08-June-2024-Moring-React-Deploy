@@ -5,7 +5,9 @@ function ListInput() {
   return (
     <>
       <input type="text" value={inputText} onChange={inputChange} />
-      <button onClick={saveToList}>Save</button>
+      <button onClick={saveToList} className="btn">
+        Add
+      </button>
     </>
   );
 }
